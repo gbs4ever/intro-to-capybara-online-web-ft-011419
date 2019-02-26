@@ -3,4 +3,9 @@ class Application < Sinatra::Base
   get '/' do
      erb :index
    end
+
+#user sending data to server 
+   post '/greet' do
+  erb :greet
+end
 end
