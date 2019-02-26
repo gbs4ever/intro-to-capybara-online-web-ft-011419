@@ -7,5 +7,5 @@ class Application < Sinatra::Base
 #user sending data to server
    post '/greet' do
   erb :greet
-end
+  end
 end
