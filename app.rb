@@ -4,7 +4,7 @@ class Application < Sinatra::Base
      erb :index
    end
 
-#user sending data to server 
+#user sending data to server
    post '/greet' do
   erb :greet
 end
